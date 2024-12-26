@@ -18,7 +18,7 @@ const weatherWallpaper = computed(() => store.state.weatherWallpaper)
 
 const handleFavouritesOpen = () => {
   isFavouriteOpen.value = !isFavouriteOpen.value
-}
+} 
 
 onMounted(async () => {
   if (store.state.favourites.length === 1) {
