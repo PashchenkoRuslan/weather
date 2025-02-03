@@ -86,7 +86,7 @@ const unixToReadableDate = (unixTime: number): string => {
         <button @click="() => addToFavourites()" class="btn btn-primary">
           <img
             class="hover:scale-110"
-            :src="!isAdded ? '../public/like-1.svg' : '../public/like-2.svg'"
+            :src="!isAdded ? '/like-1.svg' : '/like-2.svg'"
             alt="Favourite"
           />
         </button>
